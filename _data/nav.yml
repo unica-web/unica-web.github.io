@@ -3,10 +3,6 @@ items:
   name: Home
   icon_class: fa fa-home fa-lg
 
-- url: /programma/
-  name: Programma
-  icon_class: fas fa-calendar-alt
-
 - url: /lezioni/
   name: Lezioni
   icon_class: fas fa-book-reader
