@@ -1,5 +1,5 @@
 ---
-layout: programma
+layout: page
 title: Programma
 permalink: /programma/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: lezioni
+layout: page
 title: Lezioni
 permalink: /lezioni/
 ---
