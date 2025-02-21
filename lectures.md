@@ -1,6 +1,6 @@
 ---
-layout: lectures
-title: Lectures
-permalink: /lectures/
+layout: lezioni
+title: Lezioni
+permalink: /lezioni/
 ---
-You can download the lectures here. We will try to upload lectures prior to their corresponding classes.
+Il materiale delle lezioni sarà caricato qui.

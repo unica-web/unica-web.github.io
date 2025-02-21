@@ -1,5 +1,5 @@
 ---
-layout: schedule
-title: Schedule
-permalink: /schedule/
+layout: programma
+title: Programma
+permalink: /programma/
 ---

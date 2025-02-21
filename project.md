@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Project
-permalink: /project/
+title: Progetti
+permalink: /progetti/
 ---
-Describe Final project.
+
+Descrizione dei progetti finali.
