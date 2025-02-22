@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Il mio profilo</title>
+        <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .titolo {
+            color: #4a90e2;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .descrizione {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 15px 0;
+        }
+
+        .contatti {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contatti a {
+            color: #4a90e2;
+            text-decoration: none;
+            padding: 8px 15px;
+            border: 1px solid #4a90e2;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .contatti a:hover {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+        ul {
+            text-align: left;
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 10px 0;
+            color: #444;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f5f5f5;
+        }
+
+        select {
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Esempio di HTML</h1>
+            <p class="titolo">Pagina di test</p>
+            <p class="descrizione">Esempio semplice di HTML per il corso di Web Programming.</p>
+            <h3>Lista puntata:</h3>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+            <h3>Tabella:</h3>
+            <table>
+                <tr>
+                    <th>Anno</th>
+                    <th>Evento</th>
+                    <th>Descrizione</th>
+                </tr>
+                <tr>
+                    <td>1 Febbraio 2025</td>
+                    <td>Corso di Web Programming</td>
+                    <td>Lezione 1</td>
+                </tr>
+                <tr>
+                    <td>2 Febbraio 2025</td>
+                    <td>Corso di Web Programming</td>
+                    <td>Lezione 2</td>
+                </tr>
+            </table>
+            <h3>Seleziona un Progetto:</h3>
+            <select>
+                <option value="">Scegli un progetto</option>
+                <option value="1">Opzione 1</option>
+                <option value="1">Opzione 2</option>
+                <option value="1">Opzione 3</option>
+            </select>
+            <div class="contatti">
+                <a href="https://github.com/unica-web" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </body>
+</html>
