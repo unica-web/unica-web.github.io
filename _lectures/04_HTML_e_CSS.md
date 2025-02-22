@@ -7,5 +7,5 @@ links:
     - url: /static_files/presentations/04_HTML_e_CSS.pdf
       name: slides
     - url: /static_files/html_examples/example_html.html
-      name: example
+      name: esempio HTML e CSS
 ---
