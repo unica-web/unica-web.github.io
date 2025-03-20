@@ -13,6 +13,6 @@ permalink: /materiale/
 
 **Python**
 
-* [Python Crash Course Part 1](static_files/presentations/python/isde_tutoring_01.pdf): tutorial di Python (parte 1).
-* [Python Crash Course Part 2](static_files/presentations/python/isde_tutoring_02.pdf): tutorial di Python (parte 2).
+* [Python Crash Course Part 1](https://github.com/unica-isde/isde/blob/master/tutor/isde_tutoring_01.pdf): tutorial di Python (parte 1).
+* [Python Crash Course Part 2](https://github.com/unica-isde/isde/blob/master/tutor/isde_tutoring_02.pdf): tutorial di Python (parte 2).
 * [Tutorial Avanzati di Python](https://www.youtube.com/@ArjanCodes): canale youtube con tutorial avanzati di Python.
