@@ -3,7 +3,7 @@ course_name: Programmazione Web
 course_description: "Corso di Programmazione Web."
 course_semester: "2024-2025"
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://unica-web.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Università degli Studi di Cagliari"
@@ -40,6 +40,8 @@ collections:
         output: false
     announcements:
         output: false
+    laboratories:
+        output: true
 
 
 defaults:
