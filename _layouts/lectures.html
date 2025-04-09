@@ -54,4 +54,26 @@ layout: page
         </div>
     </li>
     {% endfor %}
+    <h2>Esercitazioni</h2>
+    {% for exam_simulation in site.exam_simulations %}
+    <li class="archiveposturl" style="background: transparent">
+        <div class="lecture-container">
+            <div class="content">
+                <span style="font-weight: bold;">{{ exam_simulation.title }}</span>
+                <br>
+                {{ exam_simulation.tldr }}
+                <br>
+                <strong>
+                    {% include lecture_links.html lecture=exam_simulation %}
+                </strong>
+                {% if exam_simulation.content != '' %}
+                <br>
+                <div class="markdown-content" style="margin-top: 3px;">
+                    {{ exam_simulation.content }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
 </ul>

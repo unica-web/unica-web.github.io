@@ -1,0 +1,126 @@
+
+"openapi": "3.0.0"
+"info":
+  "title": "API Libri"
+  "version": "1.0"
+"paths":
+  "/books":
+    "get":
+      "summary": "Recupera la lista dei libri"
+      "description": "Restituisce un elenco di libri."
+      "responses":
+        "200":
+          "description": "Lista recuperata."
+          "content":
+            "application/json":
+              "schema":
+                "type": "array"
+                "items":
+                  "type": "object"
+                  "properties":
+                    "id":
+                      "type": "integer"
+                      "example": 1
+                    "titolo":
+                      "type": "string"
+                      "example": "Il nome della rosa"
+                    "autore":
+                      "type": "string"
+                      "example": "Umberto Eco"
+                    "recensione":
+                      "type": "integer"
+                      "minimum": 1
+                      "maximum": 5
+                      "example": 5
+        "500":
+          "description": "Errore interno del server"
+  "/books/{id}":
+    "get":
+      "summary": "Recupera un libro specifico"
+      "description": "Restituisce i dettagli di un libro specifico dato il suo ID."
+      "parameters":
+        -
+          "name": "id"
+          "in": "path"
+          "required": true
+          "description": "ID del libro da recuperare"
+          "schema":
+            "type": "integer"
+      "responses":
+        "200":
+          "description": "Dettagli del libro recuperati con successo"
+          "content":
+            "application/json":
+              "schema":
+                "type": "object"
+                "properties":
+                  "id":
+                    "type": "integer"
+                    "example": 1
+                  "titolo":
+                    "type": "string"
+                    "example": "Il nome della rosa"
+                  "autore":
+                    "type": "string"
+                    "example": "Umberto Eco"
+                  "recensione":
+                    "type": "integer"
+                    "minimum": 1
+                    "maximum": 5
+                    "example": 5
+        "404":
+          "description": "Libro non trovato"
+        "500":
+          "description": "Errore interno del server"
+  "/books/{id}/recensione":
+    "post":
+      "summary": "Aggiungi una recensione a un libro"
+      "description": "Permette di aggiungere una recensione a un libro dato il suo ID."
+      "parameters":
+        -
+          "name": "id"
+          "in": "path"
+          "required": true
+          "description": "ID del libro a cui aggiungere la recensione"
+          "schema":
+            "type": "integer"
+      "requestBody":
+        "required": true
+        "content":
+          "application/json":
+            "schema":
+              "type": "object"
+              "properties":
+                "recensione":
+                  "type": "integer"
+                  "minimum": 1
+                  "maximum": 5
+                  "example": 5
+      "responses":
+        "200":
+          "description": "Recensione aggiunta con successo"
+        "400":
+          "description": "Richiesta non valida"
+        "404":
+          "description": "Libro non trovato"
+        "500":
+          "description": "Errore interno del server"
+"components":
+  "schemas":
+    "Libro":
+      "type": "object"
+      "properties":
+        "id":
+          "type": "integer"
+          "example": 1
+        "titolo":
+          "type": "string"
+          "example": "Il nome della rosa"
+        "autore":
+          "type": "string"
+          "example": "Umberto Eco"
+        "recensione":
+          "type": "integer"
+          "minimum": 1
+          "maximum": 5
+          "example": 5

@@ -42,6 +42,8 @@ collections:
         output: false
     laboratories:
         output: true
+    exam_simulations:
+        output: true
 
 
 defaults:
