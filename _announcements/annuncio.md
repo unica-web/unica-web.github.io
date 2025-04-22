@@ -1,9 +1,11 @@
 ---
-date: 2025-03-27T10:00:00+3:30
+date: 2025-04-22T10:00:00+3:30
 ---
 
-Le seguenti lezioni hanno subito una modifica di orario. Si riportano anche gli orari di LPOO per chi segue entrambi.
+Le lezioni delle rimanenti settimane di Aprile saranno le seguenti:
  
-* Venerdì 28/3: **PW ore 9-11**, LPOO ore 11-14
-* Venerdì 4/4: **PW ore 9-11**, LPOO ore 11-14
-* Venerdì 11/4: **PW ore 9-12**, LPOO ore 12-14 (per cambio distribuzione ore, saranno 3 ore per PW)
+* Mercoledì 23/04: ore 9-11, M_1A - ex Aula B1 [Ingegneria e Architettura - Edificio M] - Lezione.
+* Giovedì 24/04: ore 17-19, M_1A - ex Alfa [Ingegneria e Architettura - Edificio C] - Lezione.
+* Mercoledì 30/04: ore 9-11, M_1A - ex Aula B1 [Ingegneria e Architettura - Edificio M] - Laboratorio.
+
+Le lezioni riprenderanno regolarmente da Mercoledì 7 Maggio.
