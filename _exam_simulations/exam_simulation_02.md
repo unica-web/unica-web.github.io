@@ -8,4 +8,6 @@ links:
       name: testo
     - url: /static_files/exam_simulations/2025-04-16_simulazione_soluzione.pdf
       name: soluzione
+    - url: /static_files/exam_simulations/2025-04-16_exam_simulation_english.pdf
+      name: english
 ---
