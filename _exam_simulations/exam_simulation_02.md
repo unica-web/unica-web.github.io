@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-04-16
-title: "Simulaizone esercizio di esame"
+title: "Simulazione esercizio di esame"
 tldr: "Simulazione di esercizio API di gestione eventi."
 links: 
     - url: /static_files/exam_simulations/2025-04-16_simulazione.pdf
