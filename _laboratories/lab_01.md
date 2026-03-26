@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-03-28
+date: 2026-03-18
 title: "Laboratorio: FastAPI - Introduzione"
 tldr: "Laboratorio: FastAPI - Introduzione."
 links: 
