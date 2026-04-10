@@ -1,17 +1,29 @@
 {% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
+{% assign now_timestamp = 'now' | date: '%s' | plus: 0 %}
+{% assign recent_threshold = now_timestamp | minus: 604800 %}
 
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
+    {% assign event_timestamp = e.date | date: '%s' | plus: 0 %}
     {% unless e.hide_from_announcments %}
+        {% if event_timestamp >= recent_threshold %}
         {% assign events_to_show = events_to_show | push: e %}
+        {% endif %}
     {% endunless %}
 {% endfor %}
 
 {% assign all_events = events_to_show | concat: site.announcements %}
-{% assign all_events_sorted = all_events | sort: 'date' | reverse %}
+{% assign recent_announcements = "" | split: "" %}
+{% for n in all_events %}
+    {% assign announcement_timestamp = n.date | date: '%s' | plus: 0 %}
+    {% if announcement_timestamp >= recent_threshold %}
+        {% assign recent_announcements = recent_announcements | push: n %}
+    {% endif %}
+{% endfor %}
+{% assign all_events_sorted = recent_announcements | sort: 'date' | reverse %}
 
-{% if all_events_sorted.size > 5 %}
+{% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
     <h2>Updates</h2>
     <ul>
