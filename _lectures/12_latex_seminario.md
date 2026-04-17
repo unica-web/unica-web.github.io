@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-05-10
+date: 2026-04-17
 title: Seminario LaTeX
 tldr: "Seminario LaTeX."
 links: 
