@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2026-03-25
+date: 2026-05-06
 title: "Database"
 tldr: "Database."
 links: 
